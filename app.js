@@ -67,4 +67,4 @@ app.use("/api/v1", orderRoute);
 
 
 // Using Error Middleware
-app.use(errorMiddleware)
+app.use(errorMiddleware);

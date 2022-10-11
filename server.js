@@ -13,7 +13,7 @@ export const instance = new Razorpay({
 
 
 app.get("/", (req, res) => {
-    res.send("<h1>Working yu</h1>")
+    res.send("<h1>Working</h1>")
 })
 
 app.listen(process.env.PORT, () => 
